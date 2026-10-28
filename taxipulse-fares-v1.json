@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-28T15:40:00Z",
+  "source": "SUTA/Bohlapha, White Hazy & SANTACO 2026 Official Schedules",
+  "cities": {
+    "jhb": {
+      "name": "Johannesburg",
+      "province": "Gauteng",
+      "ranks": [
+        {
+          "id": "rank-bree",
+          "name": "Bree Street Taxi Rank (Metro Mall)",
+          "area": "JHB CBD West",
+          "status": "normal",
+          "waitMins": "15–25 mins",
+          "updatedAgo": "4m ago",
+          "reportsCount": 18
+        },
+        {
+          "id": "rank-noord",
+          "name": "Noord Street Rank (MTN Taxi Rank)",
+          "area": "JHB CBD East",
+          "status": "long",
+          "waitMins": "35+ mins",
+          "updatedAgo": "2m ago",
+          "reportsCount": 31
+        },
+        {
+          "id": "rank-bara",
+          "name": "Baragwanath (Bara) Taxi Rank",
+          "area": "Soweto / Diepkloof",
+          "status": "fast",
+          "waitMins": "<10 mins",
+          "updatedAgo": "6m ago",
+          "reportsCount": 14
+        },
+        {
+          "id": "rank-randburg",
+          "name": "Randburg Public Transport Rank",
+          "area": "Randburg CBD",
+          "status": "fast",
+          "waitMins": "5–10 mins",
+          "updatedAgo": "9m ago",
+          "reportsCount": 9
+        }
+      ],
+      "routes": [
+        {
+          "id": "jhb-1",
+          "fromRankId": "rank-bree",
+          "origin": "Bree",
+          "destination": "Soweto (Bara / Dobsonville)",
+          "name": "Bree to Soweto (Dobsonville / Bara)",
+          "duration": "35–45 mins",
+          "fareZAR": 28,
+          "handSign": "☝️ Index finger up / Down (Soweto corridor)"
+        },
+        {
+          "id": "jhb-2",
+          "fromRankId": "rank-noord",
+          "origin": "Noord",
+          "destination": "Midrand (Boulders / Mall of Africa)",
+          "name": "Noord to Midrand",
+          "duration": "40–55 mins",
+          "fareZAR": 32,
+          "handSign": "✌️ Two fingers sideways (N1 North)"
+        },
+        {
+          "id": "jhb-3",
+          "fromRankId": "rank-noord",
+          "origin": "Noord",
+          "destination": "Sandton & Alexandra (Wynberg)",
+          "name": "Noord to Sandton / Alex",
+          "duration": "25–35 mins",
+          "fareZAR": 27,
+          "handSign": "🖐️ Open palm tap (Louis Botha Ave)"
+        },
+        {
+          "id": "jhb-4",
+          "fromRankId": "rank-bree",
+          "origin": "Bree",
+          "destination": "Fourways / Randburg",
+          "name": "Bree to Fourways",
+          "duration": "45–60 mins",
+          "fareZAR": 30,
+          "handSign": "👌 Four fingers raised"
+        }
+      ]
+    },
+    "cpt": {
+      "name": "Cape Town",
+      "province": "Western Cape",
+      "ranks": [
+        {
+          "id": "rank-cpt-station",
+          "name": "Cape Town Station Deck Rank",
+          "area": "City Bowl / Strand St",
+          "status": "normal",
+          "waitMins": "15–20 mins",
+          "updatedAgo": "3m ago",
+          "reportsCount": 24
+        },
+        {
+          "id": "rank-bellville",
+          "name": "Bellville PTI Taxi Rank",
+          "area": "Northern Suburbs",
+          "status": "long",
+          "waitMins": "30–40 mins",
+          "updatedAgo": "1m ago",
+          "reportsCount": 29
+        },
+        {
+          "id": "rank-nyanga",
+          "name": "Nyanga Central Terminus",
+          "area": "Cape Flats",
+          "status": "fast",
+          "waitMins": "<10 mins",
+          "updatedAgo": "7m ago",
+          "reportsCount": 11
+        },
+        {
+          "id": "rank-mowbray",
+          "name": "Mowbray Interchange Rank",
+          "area": "Southern Suburbs",
+          "status": "fast",
+          "waitMins": "5–10 mins",
+          "updatedAgo": "5m ago",
+          "reportsCount": 16
+        }
+      ],
+      "routes": [
+        {
+          "id": "cpt-1",
+          "fromRankId": "rank-cpt-station",
+          "origin": "Cape Town Station",
+          "destination": "Khayelitsha (Site C / Makhaza)",
+          "name": "Cape Town Station to Khayelitsha",
+          "duration": "35–50 mins",
+          "fareZAR": 34,
+          "handSign": "☝️ N2 Express lane sign"
+        },
+        {
+          "id": "cpt-2",
+          "fromRankId": "rank-cpt-station",
+          "origin": "Cape Town Station",
+          "destination": "Mitchells Plain (Town Centre)",
+          "name": "Cape Town Station to Mitchells Plain",
+          "duration": "35–45 mins",
+          "fareZAR": 32,
+          "handSign": "✌️ Two fingers down"
+        },
+        {
+          "id": "cpt-3",
+          "fromRankId": "rank-bellville",
+          "origin": "Bellville",
+          "destination": "Wynberg (via Mowbray)",
+          "name": "Bellville to Wynberg",
+          "duration": "30–45 mins",
+          "fareZAR": 30,
+          "handSign": "👉 Pointing south (M5 corridor)"
+        },
+        {
+          "id": "cpt-4",
+          "fromRankId": "rank-nyanga",
+          "origin": "Nyanga",
+          "destination": "Sea Point / Claremont",
+          "name": "Nyanga to Sea Point / City",
+          "duration": "40–55 mins",
+          "fareZAR": 32,
+          "handSign": "🖐️ High wave"
+        }
+      ]
+    },
+    "hzy": {
+      "name": "Hazyview & Lowveld",
+      "province": "Mpumalanga (SUTA / Bohlapha & White Hazy 2026 Fares)",
+      "ranks": [
+        {
+          "id": "rank-hazyview-cbd",
+          "name": "Hazyview Main Taxi Rank (Blue Haze / Twin City)",
+          "area": "Hazyview CBD (R40 Corridor)",
+          "status": "normal",
+          "waitMins": "10–20 mins",
+          "updatedAgo": "3m ago",
+          "reportsCount": 16
+        },
+        {
+          "id": "rank-bushbuckridge",
+          "name": "Bushbuckridge Taxi Rank",
+          "area": "R40 North Corridor",
+          "status": "long",
+          "waitMins": "25–35 mins",
+          "updatedAgo": "2m ago",
+          "reportsCount": 21
+        },
+        {
+          "id": "rank-mkhuhlu",
+          "name": "Mkhuhlu & Dayizenza Plaza Rank",
+          "area": "R536 / Numbi Gate Corridor",
+          "status": "fast",
+          "waitMins": "<10 mins",
+          "updatedAgo": "5m ago",
+          "reportsCount": 11
+        },
+        {
+          "id": "rank-marite",
+          "name": "Marite / Mganduzweni Rank",
+          "area": "R40 / Masoyi Corridor",
+          "status": "fast",
+          "waitMins": "5–10 mins",
+          "updatedAgo": "7m ago",
+          "reportsCount": 9
+        }
+      ],
+      "routes": [
+        {
+          "id": "hzy-1",
+          "fromRankId": "rank-hazyview-cbd",
+          "origin": "Hazyview",
+          "destination": "Mbombela / Nelspruit Taxi Rank (50.6 km)",
+          "name": "Hazyview to Mbombela (Nelspruit)",
+          "duration": "55–70 mins",
+          "fareZAR": 75,
+          "handSign": "☝️ SUTA/Bohlapha 2026 Official Fare (R75)"
+        },
+        {
+          "id": "hzy-2",
+          "fromRankId": "rank-hazyview-cbd",
+          "origin": "Hazyview",
+          "destination": "White River Taxi Rank (R40 South)",
+          "name": "Hazyview to White River",
+          "duration": "30–40 mins",
+          "fareZAR": 45,
+          "handSign": "☝️ White Hazy 2026 Official Fare (R45)"
+        },
+        {
+          "id": "hzy-3",
+          "fromRankId": "rank-hazyview-cbd",
+          "origin": "Hazyview",
+          "destination": "Bushbuckridge Taxi Rank (24.1 km)",
+          "name": "Hazyview to Bushbuckridge",
+          "duration": "30–40 mins",
+          "fareZAR": 35,
+          "handSign": "✌️ SUTA/Bohlapha 2026 Official Fare (R35)"
+        },
+        {
+          "id": "hzy-4",
+          "fromRankId": "rank-bushbuckridge",
+          "origin": "Bushbuckridge",
+          "destination": "Mbombela / Nelspruit Taxi Rank (71.2 km)",
+          "name": "Bushbuckridge to Mbombela (Nelspruit)",
+          "duration": "70–85 mins",
+          "fareZAR": 110,
+          "handSign": "☝️ SUTA/Bohlapha 2026 Official Fare (R110)"
+        },
+        {
+          "id": "hzy-5",
+          "fromRankId": "rank-hazyview-cbd",
+          "origin": "Hazyview",
+          "destination": "Makoko / Numbi Gate / Khumbula",
+          "name": "Hazyview to Numbi Gate & Makoko",
+          "duration": "25–35 mins",
+          "fareZAR": 33,
+          "handSign": "👉 White Hazy 2026 Official Fare (R33–R36)"
+        },
+        {
+          "id": "hzy-6",
+          "fromRankId": "rank-hazyview-cbd",
+          "origin": "Hazyview",
+          "destination": "Chweni / Mgcobanini / Masoyi",
+          "name": "Hazyview to Masoyi & Mgcobanini",
+          "duration": "20–30 mins",
+          "fareZAR": 31,
+          "handSign": "🖐️ White Hazy 2026 Official Fare (R31)"
+        },
+        {
+          "id": "hzy-7",
+          "fromRankId": "rank-hazyview-cbd",
+          "origin": "Hazyview",
+          "destination": "Johannesburg CBD (Long Distance)",
+          "name": "Hazyview to Johannesburg (Long Distance)",
+          "duration": "4.5–5.5 hrs",
+          "fareZAR": 400,
+          "handSign": "🚐 Long-Distance Interprovincial (R400)"
+        }
+      ]
+    },
+    "dbn": {
+      "name": "Durban",
+      "province": "KwaZulu-Natal",
+      "ranks": [
+        {
+          "id": "rank-warwick",
+          "name": "Warwick Junction (Early Morning Market)",
+          "area": "Durban Central",
+          "status": "normal",
+          "waitMins": "15–25 mins",
+          "updatedAgo": "2m ago",
+          "reportsCount": 22
+        },
+        {
+          "id": "rank-kwamashu",
+          "name": "KwaMashu Bridge Rank",
+          "area": "Durban North Corridor",
+          "status": "fast",
+          "waitMins": "<10 mins",
+          "updatedAgo": "8m ago",
+          "reportsCount": 12
+        },
+        {
+          "id": "rank-umlazi",
+          "name": "Umlazi Mega City Rank",
+          "area": "Durban South",
+          "status": "long",
+          "waitMins": "30+ mins",
+          "updatedAgo": "4m ago",
+          "reportsCount": 19
+        }
+      ],
+      "routes": [
+        {
+          "id": "dbn-1",
+          "fromRankId": "rank-warwick",
+          "origin": "Warwick Junction",
+          "destination": "Umlazi (Sections A–Z / Mega City)",
+          "name": "Warwick Junction to Umlazi",
+          "duration": "30–40 mins",
+          "fareZAR": 28,
+          "handSign": "☝️ Point south (M4 / N2)"
+        },
+        {
+          "id": "dbn-2",
+          "fromRankId": "rank-warwick",
+          "origin": "Warwick Junction",
+          "destination": "KwaMashu & Bridge City",
+          "name": "Warwick Junction to KwaMashu",
+          "duration": "25–35 mins",
+          "fareZAR": 26,
+          "handSign": "✌️ Two fingers raised"
+        },
+        {
+          "id": "dbn-3",
+          "fromRankId": "rank-warwick",
+          "origin": "Warwick Junction",
+          "destination": "Umhlanga Rocks / Gateway",
+          "name": "Warwick Junction to Umhlanga",
+          "duration": "25–35 mins",
+          "fareZAR": 30,
+          "handSign": "👌 Coastal circle sign"
+        },
+        {
+          "id": "dbn-4",
+          "fromRankId": "rank-warwick",
+          "origin": "Warwick Junction",
+          "destination": "Pinetown (Hill Street)",
+          "name": "Warwick Junction to Pinetown",
+          "duration": "25–30 mins",
+          "fareZAR": 26,
+          "handSign": "👈 Point west (M13)"
+        }
+      ]
+    }
+  }
+}
